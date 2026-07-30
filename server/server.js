@@ -16,7 +16,6 @@ app.get("/foods", (req, res) => {
   res.status(200).json(allFoods);
 });
 
-// ⭐ Dynamic Port for Replit / Deployment
 const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, () => {
